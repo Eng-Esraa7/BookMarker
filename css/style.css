@@ -1,0 +1,82 @@
+/*intro*/
+
+.intro h3,
+.intro h4 {
+    color: #AAAAB2;
+    padding: 20px;
+    font-size: 26pxx;
+}
+
+hr {
+    color: #000;
+}
+
+
+/*form*/
+
+.myform {
+    background-color: #EEEEEE;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listsites {
+    background-color: #EEEEEE;
+}
+
+.site {
+    padding: 50px;
+}
+
+.style {
+    font-weight: bold;
+    font-size: 26px;
+    margin-right: 50px;
+}
+
+.myform h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.myform h3,
+.myform input {
+    margin-bottom: 20px;
+}
+
+.myform h3:first-of-type {
+    margin-top: 30px;
+}
+
+
+/*req*/
+
+.reqname,
+.requrl,
+.dublicatedname {
+    background-color: #FFB2B2;
+    color: #6D0000;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 20px;
+    color: #AAAAB2;
+    font-weight: 600;
+}
